@@ -196,7 +196,7 @@ Eingabe der Input- und Output-Parameter
             QgsProcessingParameterFile(
                 self.INPUT_ALS,
                 self.tr('Geländemodell (DGM)'),
-                defaultValue='m:/BMLF/WLK/RASTER/DGM/ALS_DGM_1m_AT_COG_20210111.tif',
+                defaultValue='DGM.tif',
             )
         )
 
