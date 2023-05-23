@@ -3,10 +3,11 @@
 """
 ***************************************************************************
 *                                                                         *
-*   SchneerutschTool                                                      *
+*   SchneerutschTool (SnowslideTool)                                      *
 *   Nicole Kamp & Franz Langegger                                         *
 *   December  2022                                                        *
 *   Version 1.2                                                           *
+*   QGIS 3.22                                                             *
 *                                                                         *
 ***************************************************************************
 """
@@ -104,13 +105,13 @@ Eingabe der Input- und Output-Parameter
         return GleitschneeProcessingAlgorithm()
 
     def name(self):
-        return 'schneerutschtool'
+        return 'snowslidetool'
 
     def displayName(self):
-        return self.tr('SchneerutschTool')
+        return self.tr('SnowslideTool')
 
     def group(self):
-        return self.tr('WLV Tools')
+        return self.tr('pyAlpineRisk')
 
     def groupId(self):
         return 'scripts'
@@ -1228,7 +1229,7 @@ Eingabe der Input- und Output-Parameter
         ## --------------------------------------------------------------------------------------------------------------## 
         ## 13. Add Layers to Map
         root = QgsProject.instance().layerTreeRoot()
-        mygroup = root.insertGroup(0,"Gleitschnee_Tool")        
+        mygroup = root.insertGroup(0,"SnowslideTool")        
         
         ## --------------------------------------------------------------------------------------------------------------## 
         ## 13.1. Add Impact-Points
@@ -1287,11 +1288,11 @@ Eingabe der Input- und Output-Parameter
         mygroup.addLayer(layer3)
         
         logfile.write("Layer erfolgreich zur Karte hinzugefügt"+"\n") 
-        logfile.write("Gleitschnee-Tool fertig prozessiert"+"\n") 
+        logfile.write("SnowslideTool finished"+"\n") 
         timestamp = datetime.datetime.now().strftime('%Y%m%d%H%M%S')
         logfile.write(str(timestamp)+"\n")
         outputs['LastStep'] = line_path
-        results['Tool abgeschlossen'] = outputs['LastStep']
+        results['Work finished'] = outputs['LastStep']
         return results
             
 ## --------------------------------------------------------------------------------------------------------------## 
