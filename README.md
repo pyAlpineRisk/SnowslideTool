@@ -9,7 +9,7 @@
 
 <i lang="id">Input Parameters:</i>
 
-![B1](https://github.com/pyAlpineRisk/SnowslideTool/assets/52344347/30234929-81cd-41c3-ba7b-0f0e325b9830)
+![B1](https://github.com/pyAlpineRisk/SnowslideTool/assets/52344347/aef70ba7-f783-42a4-8eb2-e7fbc70e2be8)
 
 <i lang="id">Results:</i>
 
