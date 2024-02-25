@@ -1,3 +1,11 @@
+<h1>pyAlpineRisk</h1>
+<p>
+<u>Natural hazard management in alpine torrential and avalanche catchments</u>
+</p>
+
+<p>pyAlpineRisk is a Python-based toolset developed in collaboration with die.wildbach to support and streamline natural hazard management in alpine torrential and avalanche catchments. </p>
+</p>
+</p>
 <h1>SnowslideTool</h1>
 <p>
 <u>QGIS-SnowslideTool: GIS-supported range determination of snowslide processes (flat-rate slope method)</u>
