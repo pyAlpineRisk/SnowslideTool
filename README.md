@@ -11,7 +11,7 @@ All pyAlpineRisk tools are under constant development.
 <p>The QGIS-SnowslideTool uses high-resolution terrain models and GIS techniques to automatically calculate and display precise slope and range estimates in the terrain. It improves the assessment of potential natural hazards and reduces the amount of manual work involved. The tool is particularly suitable for mapping areas of snowslides in areas below 1500 m above sea level. It automatically determines flow paths and slope direction lines and visualizes them within the QGIS project. The automated terrain analysis with the QGIS-SnowslideTool is a promising approach for precise and efficient data analysis and interpretation from remote sensing data.</p>
 
 <h2>Installation/Application</h2>
-<p>The scripts are written for PyQGIS 3.22 and can be used by installing QGIS 3.22 or above.
+<p>The latest release is written for PyQGIS 3.28 and can be used by installing QGIS 3.28 or above.
 
 To install QGIS tools developed for QGIS 3.x, copy them into
 ~/AppData/Roaming/QGIS/QGIS3/profiles/default/processing/scripts or in the upper part of the toolbox dialog you can add the scripts with ![mIconPythonFile](https://user-images.githubusercontent.com/52344347/136413201-b4a1f7d3-4053-4aa6-b11c-9433ae617057.png) Scripts - Add Script to Toolbox ...
